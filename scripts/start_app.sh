@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/LP/LP/settings.py
+sed -i 's/\[]/\["3.128.181.151"]/' /home/ubuntu/LP/LP/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
