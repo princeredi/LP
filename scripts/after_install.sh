@@ -3,7 +3,7 @@
 # Navigate to the project directory
 cd /home/ubuntu/LP
 
-# Create a virtual environment if it doesn't exist
+# Create a virtual environment if it doesn't existt
 if [ ! -d "venv" ]; then
     python3 -m venv venv
 fi
