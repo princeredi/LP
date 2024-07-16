@@ -14,3 +14,6 @@ source venv/bin/activate
 # Install dependencies including Gunicorn
 pip install -r requirements.txt
 pip install gunicorn
+
+# Verify installation
+pip freeze > /home/ubuntu/deploy.log
