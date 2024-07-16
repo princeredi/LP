@@ -11,5 +11,6 @@ fi
 # Activate the virtual environment
 source venv/bin/activate
 
-# Install dependencies
+# Install dependencies including Gunicorn
 pip install -r requirements.txt
+pip install gunicorn
